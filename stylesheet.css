@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+    font-family: 'againtsregular';
+    src: url('fonts/againts-webfont.eot');
+    src: url('fonts/againts-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/againts-webfont.woff2') format('woff2'), url('fonts/againts-webfont.woff') format('woff'), url('../fonts/againts-webfont.ttf') format('truetype'), url('fonts/againts-webfont.svg#againtsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+   }
+   
+   
+
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(image/banner1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-family: 'againtsregular';
+    color: #fff;
+    font-size: 200px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+  .top-wrapper p {
+    font-size: 26px;
+    line-height: .8;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 53px;
+  }
+
+.travelBtn {
+    height: 50px;
+    display: inline-block;
+    background: #288dff;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: .8;
+    padding: 17px 35px;
+}
+
+.travelBtn span {
+    font-weight: 900;
+}
+
+.travelBtn:hover {
+    background: #7ab55c;
+    color: #fff;
+}
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(150, 231, 247, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+  
+  
+  .tagline-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+      font-size: 70px;
+      line-height: .8;
+      color: #7ab55c;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: -5px;
+      margin-bottom: 20px;
+  }
+  .kecil{
+    text-transform: capitalize;
+  }
+  .heading p{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+  }
+  .heading p span{
+      text-transform: lowercase;
+      font-style: italic;
+      font-family: 'Merriweather', serif;
+  }
+  
+.card-img {
+  display: block;
+  width: 100%;
+}
+
+.wrapper-card {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards_wrap .card_item {
+  width: 25%;
+  padding: 10px;
+}
+
+.cards_wrap .card_inner {
+  background: #fff;
+}
+
+.cards_wrap .card_top {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px dashed #0071bc;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #0071bc;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap .card_bottom .card_creator {
+  text-align: center;
+}
+  
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
